@@ -4,7 +4,8 @@
     "info": {
         "singularName": "provision",
         "pluralName": "provisions",
-        "displayName": "Provision"
+        "displayName": "Provision",
+        "description": ""
     },
     "options": {
         "draftAndPublish": false

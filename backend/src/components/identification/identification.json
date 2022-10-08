@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_identification_idCodes",
+  "info": {
+    "displayName": "idCodes",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": ["VAT", "CF", "KvK", "BTW", "COE"],
+      "required": true
+    }
+  }
+}

@@ -16,11 +16,11 @@
       "required": true,
       "unique": true
     },
-    "clients": {
+    "client": {
       "type": "relation",
-      "relation": "manyToMany",
+      "relation": "manyToOne",
       "target": "api::client.client",
-      "mappedBy": "projects"
+      "inversedBy": "projects"
     }
   }
 }

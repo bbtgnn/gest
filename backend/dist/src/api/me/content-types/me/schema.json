@@ -33,7 +33,7 @@
         "idCodes": {
             "type": "component",
             "repeatable": true,
-            "component": "identification.id-codes"
+            "component": "identification.identification"
         }
     }
 }
