@@ -1,0 +1,19 @@
+{
+    "collectionName": "components_identification_id_codes",
+    "info": {
+        "displayName": "id codes",
+        "icon": "address-card"
+    },
+    "options": {},
+    "attributes": {
+        "idCode": {
+            "type": "relation",
+            "relation": "oneToOne",
+            "target": "api::id-code.id-code"
+        },
+        "value": {
+            "type": "string",
+            "required": true
+        }
+    }
+}

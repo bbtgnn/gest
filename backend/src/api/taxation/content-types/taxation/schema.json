@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "taxations",
+  "info": {
+    "singularName": "taxation",
+    "pluralName": "taxations",
+    "displayName": "Taxation",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": false,
+      "unique": true
+    },
+    "coefficient": {
+      "type": "float",
+      "required": true
+    },
+    "amount": {
+      "type": "float",
+      "required": true
+    },
+    "contributions": {
+      "type": "float",
+      "required": true
+    },
+    "invoices": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::invoice.invoice",
+      "mappedBy": "taxation"
+    }
+  }
+}
